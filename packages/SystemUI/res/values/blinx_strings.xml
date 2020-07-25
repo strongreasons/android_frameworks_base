@@ -2,7 +2,7 @@
 <!--
 /**
  * Copyright (c) 2015, The CyanogenMod Project
- * Copyright (c) 2017-2020, The LineageOS Project
+ * Copyright (c) 2017-2019, The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,8 +18,8 @@
  */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="accessibility_quick_settings_profiles_off">Imuɣna nsan.</string>
-    <string name="accessibility_quick_settings_profiles">Amaɣnu: <xliff:g id="profile" example="Default">%s</xliff:g>.</string>
-    <string name="accessibility_quick_settings_profiles_changed_off">Imuɣna nsan.</string>
-    <string name="accessibility_quick_settings_profiles_changed">Amaɣnu yuɣal ar <xliff:g id="profile" example="Default">%s</xliff:g>.</string>
+    <!-- App lock -->
+    <string name="applock_locked">&#160;is Locked.</string>
+    <string name="applock_fingerprint">&#160;or your fingerprint to unlock.</string>
+    <string name="applock_locked_notification">App is locked</string>
 </resources>
