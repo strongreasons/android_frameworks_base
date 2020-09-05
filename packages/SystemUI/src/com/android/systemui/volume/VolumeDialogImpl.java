@@ -221,11 +221,11 @@ public class VolumeDialogImpl implements VolumeDialog,
         mHasSeenODICaptionsTooltip =
                 Prefs.getBoolean(context, Prefs.Key.HAS_SEEN_ODI_CAPTIONS_TOOLTIP, false);
         Dependency.get(TunerService.class).addTunable(mTunable, SETTING_VOLUME_PANEL_ON_LEFT);
-    }
         Dependency.get(TunerService.class).addTunable(mTunable, SHOW_APP_VOLUME);
         ColorMatrix colorMatrix = new ColorMatrix();
         colorMatrix.setSaturation(0);
         mAppIconMuteColorFilter = new ColorMatrixColorFilter(colorMatrix);
+}
 
     @Override
     public void onUiModeChanged() {
