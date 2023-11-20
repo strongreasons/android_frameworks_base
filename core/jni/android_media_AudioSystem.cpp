@@ -2451,7 +2451,6 @@ static const JNINativeMethod gMethods[] = {
           (void *)android_media_AudioSystem_setAppMute},
          {"listAppTrackDatas", "(Ljava/util/ArrayList;)I",
           (void *)android_media_AudioSystem_listAppTrackDatas}};
-};
 
 static const JNINativeMethod gEventHandlerMethods[] = {
     {"native_setup",
